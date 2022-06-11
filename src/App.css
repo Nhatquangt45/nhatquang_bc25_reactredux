@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'fontGame';
+  src: url(./bai-tap-redux/font/Pony.ttf);
+}
+
+.header{
+  background-image: url("./../public/img/bgGame.png");
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  font-family: fontGame;
+  font-size: 4rem;
+}
+
+.btn__game{
+  padding: 30px;
+  background-color: rgb(82, 108, 238);
+  font-size: 4rem;
+  border: 5px solid rgb(82, 238, 98);
+  border-radius: 10px;
+  color: #ffff;
+}
+.xucxac__nho{
+  border: none;
+  border-radius: 5px;
+}
+.title{
+  font-size: 2.5rem;
+}
